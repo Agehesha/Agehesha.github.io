@@ -5,7 +5,7 @@ Official website of the independent game developer **Agehesha**, served by GitHu
 
 | Path | Content |
 |------|---------|
-| `/` | Developer home page, Metro Magnate, support contact |
+| `/` | Developer home page, Metro Empire, support contact |
 | `/privacy/` | Privacy Policy (English) — link this in Google Play Console and AdMob |
 | `/404.html` | Not-found page |
 

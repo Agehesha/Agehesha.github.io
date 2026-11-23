@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Agehesha">
+  <rect width="64" height="64" rx="14" fill="#151b25"/>
+  <path d="M10 46 L26 30 L54 30" fill="none" stroke="#5a8dee" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M10 18 L26 30 L40 46 L54 46" fill="none" stroke="#3ec7a6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="26" cy="30" r="7" fill="#0b0e13" stroke="#f6b73c" stroke-width="4"/>
+</svg>

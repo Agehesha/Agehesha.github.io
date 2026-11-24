@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy — Metro Empire · Agehesha</title>
-  <meta name="description" content="Privacy Policy for Metro Empire and other apps by Agehesha: what data is stored on your device, what Google AdMob collects, and your choices.">
+  <meta name="description" content="Privacy Policy for Metro Empire and other apps by Agehesha: what data is stored on your device, how cloud save through Google Play Games works, what Google AdMob collects, and your choices.">
   <link rel="canonical" href="https://agehesha.github.io/privacy/">
   <meta name="theme-color" content="#0b0e13">
   <link rel="icon" href="/assets/img/logo.svg" type="image/svg+xml">
@@ -35,13 +35,13 @@
       <h1>Privacy Policy</h1>
       <p class="meta">Applies to: <strong>Metro Empire</strong> (Android, package <code>com.agehesha.metromagnate</code>)<br>
         Developer: Agehesha · Contact: <a href="mailto:darkpwaoff@gmail.com">darkpwaoff@gmail.com</a><br>
-        Effective date: November 23, 2026 · Last updated: November 24, 2026 (revision 3: final Android package name)</p>
+        Effective date: November 23, 2026 · Last updated: November 25, 2026 (revision 4: cloud save through Google Play Games)</p>
 
       <div class="summary">
         <p><strong>In short:</strong></p>
         <ul>
-          <li>Metro Empire has no user accounts and does not ask for your name, email, phone number, contacts, photos or precise location.</li>
-          <li>Your game progress and settings are stored only on your device. We, the developer, do not run any server and do not receive your game data.</li>
+          <li>Metro Empire has no user accounts of its own and does not ask for your name, email, phone number, contacts, photos or precise location.</li>
+          <li>Your game progress and settings are stored on your device. If you are signed in to <strong>Google Play Games</strong>, a copy is also saved to your Google account so that you can restore it after reinstalling the game or on another device. We, the developer, do not run any server and do not receive your game data.</li>
           <li>The game shows ads through <strong>Google AdMob</strong>. Google collects certain device data, including the advertising ID, to deliver and measure ads. Where the law requires it, you are asked for consent first and can change your choice later in the game’s Settings.</li>
           <li>The game sends a small request to a Google address to check the current time. No game data is sent with it.</li>
           <li>The game contains no analytics, no crash-reporting service and no in-app purchases.</li>
@@ -53,6 +53,7 @@
         <ol>
           <li><a href="#who">Who we are</a></li>
           <li><a href="#device">Data stored on your device</a></li>
+          <li><a href="#cloud">Cloud save (Google Play Games)</a></li>
           <li><a href="#ads">Advertising (Google AdMob)</a></li>
           <li><a href="#consent">Consent and your ad choices</a></li>
           <li><a href="#time">Network time check</a></li>
@@ -69,7 +70,7 @@
 
       <h2 id="who">1. Who we are</h2>
       <p>Metro Empire is developed and published by Agehesha, an independent developer (“we”, “us”). The app’s Android package name is <code>com.agehesha.metromagnate</code>. This policy explains what information the app handles, why, and what choices you have. It describes how the current version of the app actually works.</p>
-      <p>For ads served through Google AdMob, Google acts as an independent controller of the data it collects, under its own privacy policy (see <a href="#ads">section 3</a>).</p>
+      <p>For ads served through Google AdMob, Google acts as an independent controller of the data it collects, under its own privacy policy (see <a href="#ads">section 4</a>).</p>
 
       <h2 id="device">2. Data stored on your device</h2>
       <p>The game saves the following information locally on your device so that you can continue playing:</p>
@@ -77,12 +78,23 @@
         <li>Game progress: built lines and stations, trains and their condition, money, landmarks, badges and opened cities.</li>
         <li>Settings: interface language and color theme.</li>
         <li>Timing data used by game mechanics: the time of your last session (to calculate income earned while you were away), daily limits for optional rewarded ads, and the time since the last full-screen ad.</li>
-        <li>A correction value between your device clock and the network time (see <a href="#time">section 5</a>).</li>
+        <li>A correction value between your device clock and the network time (see <a href="#time">section 6</a>).</li>
       </ul>
-      <p>This data is stored in the app’s private storage (WebView local storage, with a backup copy in Android app preferences). It is not sent to us or to any server operated by us. The interface language is chosen from your device’s language settings on the device itself; this setting is not transmitted anywhere by the game.</p>
-      <p><strong>Android backup.</strong> The app allows Android’s standard backup. If you have turned on backup in your Android settings, Android may include the app’s data in your device backup to your Google account. That backup is controlled by you and handled by Google under its own terms; we cannot access it.</p>
+      <p>This data is stored in the app’s private storage (WebView local storage, with a backup copy in Android app preferences). It is not sent to us or to any server operated by us. If you use Google Play Games, a copy of this data (except the clock correction value) is also saved to your Google account, as described in <a href="#cloud">section 3</a>. The interface language is chosen from your device’s language settings on the device itself; this setting is not transmitted anywhere by the game.</p>
+      <p><strong>Android backup.</strong> The app allows Android’s standard backup. If you have turned on backup in your Android settings, Android may include the backup copy of your game data (stored in the app preferences) in your device backup to your Google account, and may copy it when you transfer your data to a new device. That backup is controlled by you and handled by Google under its own terms; we cannot access it.</p>
 
-      <h2 id="ads">3. Advertising (Google AdMob)</h2>
+      <h2 id="cloud">3. Cloud save (Google Play Games)</h2>
+      <p>Metro Empire uses <strong>Google Play Games services</strong> (Saved Games), provided by Google, to keep a copy of your progress in your Google account. This lets you restore your progress after reinstalling the game or continue on another device signed in to the same account.</p>
+      <ul>
+        <li><strong>When it is used:</strong> only if you are signed in to Google Play Games. On many devices Google Play Games signs you in automatically when the game starts; otherwise you can sign in from the game’s menu → <strong>Settings</strong> → <strong>Sign in to Google Play Games</strong>. If you are not signed in, your progress stays only on your device (and in your Android device backup, see <a href="#device">section 2</a>).</li>
+        <li><strong>What is saved:</strong> the game data listed in <a href="#device">section 2</a> — game progress, interface language and theme, the time of your last session, daily limits for optional rewarded ads and the time since the last full-screen ad — together with a short description (number of cities and stations) and a progress value (in-game money earned). The clock correction value is not saved.</li>
+        <li><strong>When:</strong> when you leave or pause the game, periodically during play, and when the game starts. The game works offline; changes are uploaded the next time a connection is available.</li>
+        <li><strong>Where:</strong> the copy is stored by Google in your Google account, in a private app data area that only this game can access, and is handled under the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>. Google Play Games also uses your Play Games profile to sign you in; this is handled by Google.</li>
+        <li><strong>What we receive:</strong> nothing. We do not run a server and cannot access your cloud save. The game does not request your name, email address, friends list or other profile data from Google Play Games.</li>
+      </ul>
+      <p>If the progress on your device and in the cloud differ (for example, after playing offline on two devices), the game shows both versions and asks you which one to keep. An empty new game never replaces existing progress automatically.</p>
+
+      <h2 id="ads">4. Advertising (Google AdMob)</h2>
       <p>Metro Empire is free and is supported by ads delivered by Google AdMob (Google Mobile Ads SDK), provided by Google LLC or, for users in the European Economic Area, the UK and Switzerland, Google Ireland Limited. The app shows two kinds of ads:</p>
       <ul>
         <li><strong>Rewarded ads</strong> — only when you choose to watch one, for example to receive an in-game bonus or to double your offline income.</li>
@@ -108,7 +120,7 @@
         <li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener">Google Mobile Ads SDK data disclosure</a></li>
       </ul>
 
-      <h2 id="consent">4. Consent and your ad choices</h2>
+      <h2 id="consent">5. Consent and your ad choices</h2>
       <p>The app uses Google’s User Messaging Platform. If you are in a region where consent is required for personalized advertising (such as the European Economic Area, the United Kingdom or Switzerland), a consent form is shown when you start the game, before ads are requested. You can accept or refuse personalized ads; the game works the same either way.</p>
       <p>Other choices you have at any time:</p>
       <ul>
@@ -118,41 +130,42 @@
         <li><strong>Play offline:</strong> without an internet connection no ads are loaded and the game remains playable.</li>
       </ul>
 
-      <h2 id="time">5. Network time check</h2>
+      <h2 id="time">6. Network time check</h2>
       <p>To prevent changing the device clock from affecting game mechanics, the app periodically sends a simple request to <code>https://www.google.com/generate_204</code> and reads only the current date and time from the response. The request contains no game data and no identifiers created by the game. As with any internet request, Google’s server receives standard connection information, such as your IP address and basic request headers; this is handled by Google under the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.</p>
 
-      <h2 id="permissions">6. Android permissions</h2>
+      <h2 id="permissions">7. Android permissions</h2>
       <ul>
         <li><strong>Internet access</strong> and <strong>network state</strong> — to load ads and check the time.</li>
-        <li><strong>Advertising ID</strong> (<code>com.google.android.gms.permission.AD_ID</code>) — added by the Google Mobile Ads SDK so that ads can be delivered as described in <a href="#ads">section 3</a>.</li>
+        <li><strong>Advertising ID</strong> (<code>com.google.android.gms.permission.AD_ID</code>) — added by the Google Mobile Ads SDK so that ads can be delivered as described in <a href="#ads">section 4</a>.</li>
         <li><strong>Android ad services</strong> (<code>ACCESS_ADSERVICES_AD_ID</code>, <code>ACCESS_ADSERVICES_ATTRIBUTION</code>, <code>ACCESS_ADSERVICES_TOPICS</code>) — added by the Google Mobile Ads SDK. On devices that support Android’s Privacy Sandbox, the SDK may use these system APIs for ad selection and measurement. You can control them in Android settings (Settings → Privacy → Ads → Ad privacy, where available).</li>
         <li><strong>Background work</strong> (<code>WAKE_LOCK</code>, <code>FOREGROUND_SERVICE</code>) — added by the Google SDK’s libraries for internal scheduling of ad-related tasks.</li>
       </ul>
       <p>The app does not request access to your location, camera, microphone, contacts, photos, files or phone calls.</p>
 
-      <h2 id="sharing">7. How data is shared</h2>
-      <p>We do not sell personal data and we do not share your data with anyone, because we do not collect it on our own servers. Data collected directly by the Google Mobile Ads SDK and by the network time check is processed by Google as described above. We may disclose information only if required by law, and only to the extent we actually hold it.</p>
+      <h2 id="sharing">8. How data is shared</h2>
+      <p>We do not sell personal data and we do not share your data with anyone, because we do not collect it on our own servers. Your cloud save is stored by Google in your Google account (see <a href="#cloud">section 3</a>). Data collected directly by the Google Mobile Ads SDK and by the network time check is processed by Google as described above. We may disclose information only if required by law, and only to the extent we actually hold it.</p>
 
-      <h2 id="retention">8. Retention and deletion</h2>
+      <h2 id="retention">9. Retention and deletion</h2>
       <ul>
         <li><strong>Game data on your device</strong> is kept until you delete it. You can delete it at any time by clearing the app’s data in Android settings or uninstalling the app.</li>
+        <li><strong>Cloud save</strong> is kept in your Google account until you delete it; uninstalling the game does not delete it. To delete it, open the Google Play Games app (or <a href="https://play.google.com/games" rel="noopener">play.google.com/games</a>) → your profile → Settings, and delete the data of this game or your Play Games account and data.</li>
         <li><strong>Data collected by Google</strong> is retained according to Google’s retention policies. See <a href="https://policies.google.com/technologies/retention" rel="noopener">How Google retains data</a>.</li>
         <li><strong>Emails you send us</strong> are kept only as long as needed to answer you, and you can ask us to delete them.</li>
       </ul>
 
-      <h2 id="security">9. Security</h2>
-      <p>Game data stays in the app’s private storage on your device, which other apps cannot read. Network requests made by the app use encrypted HTTPS connections. No method of storage or transmission is completely secure, but we keep the amount of data involved to a minimum.</p>
+      <h2 id="security">10. Security</h2>
+      <p>Game data stays in the app’s private storage on your device, which other apps cannot read. The cloud save is stored in a private app data area of your Google account that other apps cannot read. Network requests made by the app, including the cloud save, use encrypted connections. No method of storage or transmission is completely secure, but we keep the amount of data involved to a minimum.</p>
 
-      <h2 id="children">10. Children</h2>
+      <h2 id="children">11. Children</h2>
       <p>Metro Empire is not directed at children under the age of 13 and we do not knowingly collect personal information from children. The app does not ask for any personal information. If you believe a child has provided us with personal information, for example by email, please contact us and we will delete it.</p>
 
-      <h2 id="rights">11. Your rights</h2>
-      <p>Depending on where you live (for example, under the GDPR in the EEA and UK, or under the CCPA/CPRA in California), you may have the right to access, correct or delete personal data, to object to or restrict its processing, to withdraw consent, and to lodge a complaint with a data protection authority. Because we do not store your personal data on our servers, most requests are best handled by the controls on your device described above or directly with Google for ad-related data, through <a href="https://myaccount.google.com/data-and-privacy" rel="noopener">your Google account</a>. We will gladly help with any request — write to us.</p>
+      <h2 id="rights">12. Your rights</h2>
+      <p>Depending on where you live (for example, under the GDPR in the EEA and UK, or under the CCPA/CPRA in California), you may have the right to access, correct or delete personal data, to object to or restrict its processing, to withdraw consent, and to lodge a complaint with a data protection authority. Because we do not store your personal data on our servers, most requests are best handled by the controls on your device described above or directly with Google for ad-related data and your cloud save, through <a href="https://myaccount.google.com/data-and-privacy" rel="noopener">your Google account</a>. We will gladly help with any request — write to us.</p>
 
-      <h2 id="changes">12. Changes to this policy</h2>
+      <h2 id="changes">13. Changes to this policy</h2>
       <p>We may update this policy, for example when the app gains new features or uses a new service. The current version is always available at this address, with the date of the last update shown at the top. Significant changes will be reflected here before they take effect in the app.</p>
 
-      <h2 id="contact">13. Contact</h2>
+      <h2 id="contact">14. Contact</h2>
       <p>For any question about this policy or your data, contact Agehesha at <a href="mailto:darkpwaoff@gmail.com">darkpwaoff@gmail.com</a>. Please write “Privacy” in the subject line.</p>
     </div>
   </main>

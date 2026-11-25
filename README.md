@@ -8,14 +8,14 @@ Official website of the independent game developer **Agehesha**, served by GitHu
 | `/` | Developer home page, Metro Empire, support contact |
 | `/privacy/` | Privacy Policy (English) — link this in Google Play Console and AdMob |
 | `/404.html` | Not-found page |
+| `/app-ads.txt` | Authorized ad sellers for AdMob (publisher `pub-9379315583702570`) |
 
 Plain static HTML and CSS: no build step, no external fonts, scripts, analytics or cookies.
 `.nojekyll` turns off Jekyll so every file is served as is.
 
 ## app-ads.txt (AdMob)
 
-`app-ads.txt` is not published yet, because the AdMob account and publisher ID do not exist yet.
-When they do:
+`app-ads.txt` is published (25.11.2026) for publisher `pub-9379315583702570`. To change it or set it up again:
 
 1. AdMob → Apps → View all apps → **app-ads.txt** → *How to set up app-ads.txt* — copy the line AdMob shows.
    It looks like `google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0`, with **your own** publisher ID.
